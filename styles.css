@@ -1,4 +1,17 @@
 nav {   
-    
+    border: 3px black;
+    padding: 2px;
+    background-color: antiquewhite;
 }
 
+a:link, a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+   color: black;
+}
