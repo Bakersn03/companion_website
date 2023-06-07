@@ -1,17 +1,37 @@
-nav {   
-    border: 3px black;
+header {   
+    border: 3px solid black;
     padding: 2px;
     background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
 }
 
 a:link, a:visited {
-    color: grey;
+    color: black;
 }
 
 a:hover {
     color: brown;
 }
 
-a:active {
-   color: black;
+header li {
+    margin: 20px;
+    font-size: 40px;
+}
+
+header a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header img {
+    height: 80px;
 }
