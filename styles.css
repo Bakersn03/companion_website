@@ -45,3 +45,11 @@ header img {
     height: 80px;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
+.token {
+    height: 17px;
+    width: 17px;
+}
