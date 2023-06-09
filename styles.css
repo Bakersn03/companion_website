@@ -53,3 +53,35 @@ body {
     height: 17px;
     width: 17px;
 }
+
+.project {
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    padding-left: 20px;   
+    padding-right: 20px;
+    margin-right: 320px;
+    margin-left: 320px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h1, p {
+    background-color: white;
+    border:  2px solid black;
+}
+
+.d-image {
+    max-width: 255px;
+    height: auto;
+    float: right;
+    align-items: center;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.description {
+    float: left;
+    max-width: 50%;
+}
